@@ -28,17 +28,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
    });
 });
 
-// Kontaktformular-Handling
-const contactForm = document.getElementById('contact-form');
-
-contactForm.addEventListener('submit', function(e) {
-   e.preventDefault();
-   
-   // Hier würde normalerweise ein AJAX-Request zum Versenden des Formulars stehen
-   alert('Vielen Dank für die Nachricht!');
-   contactForm.reset();
-});
-
 // Animierte Fortschrittsbalken für Skills
 function animateSkills() {
    const skillsSection = document.querySelector('.skills');
